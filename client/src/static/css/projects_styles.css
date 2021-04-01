@@ -1,0 +1,63 @@
+.bkgrnd {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.row {
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.row2 {
+    position: absolute;
+    top: 50vh;
+    width: 100vw;
+    height: 35vh;
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+}
+.project {
+    /* outline: 1px solid blue; */
+    width: 30vw;
+    height: 100%;
+    margin-left: 3vw;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+}
+.projectHeader {
+    /* outline: 1px solid green; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.projectMain {
+    /* outline: 1px solid green; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectImg {
+    width: 100%;
+    height: 100%;
+}
+.projectFooter {
+    /* outline: 1px solid green; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.projectFooterContent {
+    font-size: .8vw;
+}
